@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "cypress:open": "cypress open"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "^0.6.4",
+    "@tailwindcss/typography": "^0.5.9",
+    "cypress": "^12.16.0",
+    "daisyui": "^3.1.7",
+    "nuxt": "^3.3.0",
+    "prettier": "^2.8.8",
+    "prettier-plugin-tailwindcss": "^0.3.0",
+    "rollup": "3.18.0"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@nuxtjs/tailwindcss": "^6.6.4",
+    "@vueuse/nuxt": "^9.13.0",
+    "html-to-image": "^1.11.11",
+    "nanoid": "^4.0.1",
+    "openai": "^4.104.0",
+    "vue3-markdown-it": "^1.0.10"
+  }
+}
